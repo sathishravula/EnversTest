@@ -1,1 +1,1 @@
-web: java -Dserver.port=$PORT $JAVA_OPTS -jar build/libs/demoenvers.war
+web: java -Dserver.port=$PORT -jar  build/libs/demoenvers.war
