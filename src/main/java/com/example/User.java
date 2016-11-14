@@ -1,12 +1,16 @@
 package com.example;
 
+import javax.persistence.Entity;
+import javax.persistence.Id;
 import java.util.Date;
 
 /**
  * Created by ehc on 14/11/16.
  */
 
+@Entity(name = "users")
 public class User {
+  @Id
   private Long id;
   private String firstName;
   private String lastName;
